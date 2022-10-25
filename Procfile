@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* TelegramBotApplication.class
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* TelegramBotApplication.java
