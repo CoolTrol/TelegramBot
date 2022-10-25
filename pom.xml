@@ -9,7 +9,7 @@
 
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <groupId>com.example</groupId>
     <artifactId>TelegramBot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -49,8 +49,8 @@
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.2</version>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.2.2</version>
         </dependency>
 
 
@@ -79,10 +79,9 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.2</version>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.2</version>
                 <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
                     <archive>
                         <manifest>
                             <mainClass>com.example.telegrambot.TelegramBotApplication</mainClass>
