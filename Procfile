@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target.classes.com.example.telegrambot.TelegramBotApplication
+web: java $JAVA_OPTS target.classes.com.example.telegrambot.TelegramBotApplication
