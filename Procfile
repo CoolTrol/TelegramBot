@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS com/example/telegrambot/TelegramBotApplication
+web: java -war target/TelegramBot-0.0.1-SNAPSHOT.war
