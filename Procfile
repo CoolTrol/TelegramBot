@@ -1,1 +1,1 @@
-web: java -jar target/TelegramBot-0.0.1-SNAPSHOT.jar
+web: java -jar TelegramBot/target/TelegramBot-0.0.1-SNAPSHOT.jar
