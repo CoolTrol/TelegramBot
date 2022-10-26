@@ -163,7 +163,7 @@ public class ReplyHandler extends TelegramLongPollingBot {
                 execute(message);
             } else {
                 ArrayList<File> list = photos.get(chatId);
-                File file = File.createTempFile("zalupa", ".pdf");
+                File file = File.createTempFile("document", ".pdf");
                 PDDocument document = new PDDocument();
 
                 for (int i = 0; i < list.size(); i++) {
