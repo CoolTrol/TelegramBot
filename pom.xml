@@ -84,7 +84,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>TelegramBotApplication</mainClass>
+                            <mainClass>com.example.telegrambot.TelegramBotApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
